@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Arivoli's Portfolio</title>
+
+    <link rel="icon" href="icon.png">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+</head>
+
+<body>
+
+<!-- Progress Bar -->
+<div id="progress-bar"></div>
+
+<!-- Particles -->
+<div id="particles-js"></div>
+
+<!-- Loader -->
+<div id="loader">
+
+    <img src="loadimg.webp" alt="Profile">
+
+    <h1>Arivoli's Portfolio</h1>
+
+    <p>Loading Portfolio...</p>
+
+    <div class="loading-bar">
+        <div class="progress"></div>
+    </div>
+
+</div>
+
+<!-- Main Content -->
+<div id="main-content">
+
+<!-- =========================
+        NAVBAR
+========================= -->
+
+<nav id="navbar">
+
+    <h2 class="logo">ARIVOLI</h2>
+
+    <ul>
+
+        <li>
+            <a href="#home" class="nav-link active">
+                Home
+            </a>
+        </li>
+
+        <li>
+            <a href="#about" class="nav-link">
+                About
+            </a>
+        </li>
+
+        <li>
+            <a href="#skills" class="nav-link">
+                Skills
+            </a>
+        </li>
+
+        <li>
+            <a href="#education" class="nav-link">
+                Education
+            </a>
+        </li>
+
+        <li>
+            <a href="#projects" class="nav-link">
+                Projects
+            </a>
+        </li>
+
+        <li>
+            <a href="#internships" class="nav-link">
+                Internships
+            </a>
+        </li>
+
+        <li>
+            <a href="#certifications" class="nav-link">
+                Certificates
+            </a>
+        </li>
+
+        <li>
+            <a href="#contact" class="nav-link">
+                Contact
+            </a>
+        </li>
+
+    </ul>
+
+</nav>
+
+<!-- =========================
+        HERO SECTION
+========================= -->
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <img src="profile 2.jpeg"
+        alt="Profile"
+        class="profile">
+
+        <h1>ARIVOLI S</h1>
+
+        <h3 id="typing"></h3>
+
+        <p>
+            Aspiring Full Stack Developer and Artificial Intelligence &
+            Data Science Student passionate about building scalable,
+            responsive, and user-friendly web applications.
+        </p>
+
+        <div class="buttons">
+
+            <a href="Arivoli_resume (3).pdf"
+            class="btn"
+            download>
+
+                Download Resume
+
+            </a>
+
+            <a href="#projects"
+            class="btn">
+
+                View Projects
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+        ABOUT SECTION
+========================= -->
+
+<section id="about">
+
+    <h2 class="section-title">
+        DECODING ME
+    </h2>
+
+    <div class="flip-card">
+
+        <div class="flip-card-inner">
+
+            <!-- Front -->
+
+            <div class="flip-card-front">
+
+                <i class="fa-solid fa-user-secret"></i>
+
+                <h3>WHO AM I?</h3>
+
+                <p>
+                    Hover To Discover
+                </p>
+
+            </div>
+
+            <!-- Back -->
+
+            <div class="flip-card-back">
+
+                <h3>ARIVOLI S</h3>
+
+                <p>
+
+                    Hello, I am Arivoli S,
+                    currently pursuing my B.Tech degree
+                    in the Department of Artificial
+                    Intelligence and Data Science at
+                    Dr. NGP Institute of Technology,
+                    Coimbatore.
+
+                </p>
+
+                <p>
+
+                    positive-minded,
+                    self-motivated and quick-learning
+                    person who always likes to improve
+                     knowledge and skills.
+
+                </p>
+
+                <p>
+
+                    My vision is to leverage
+                    computational logic and scalable
+                    systems to transform complex,
+                    real-world challenges into elegant
+                    digital solutions.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+        ACHIEVEMENTS
+========================= -->
+
+<section id="achievements">
+
+    <h2 class="section-title">
+        BY THE NUMBERS
+    </h2>
+
+    <div class="counter-container">
+
+        <div class="counter-card">
+
+            <h1 class="counter"
+            data-target="15">
+
+                0
+
+            </h1>
+
+            <p>
+                Projects Completed
+            </p>
+
+        </div>
+
+        <div class="counter-card">
+
+            <h1 >
+
+                2
+
+            </h1>
+
+            <p>
+                Internships
+            </p>
+
+        </div>
+
+        <div class="counter-card">
+
+            <h1>
+
+                2
+
+            </h1>
+
+            <p>
+                Certifications
+            </p>
+
+        </div>
+
+        <div class="counter-card">
+
+            <h1 class="counter"
+            data-target="500">
+
+                0
+
+            </h1>
+
+            <p>
+                Coding Hours
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+        SKILLS SECTION
+========================= -->
+
+<section id="skills" class="skills-section">
+
+    <h2 class="section-title">
+        TECH ARSENAL
+    </h2>
+
+    <div class="skills-container">
+
+        <div class="skill-card">
+
+            <h3>Python</h3>
+
+            <p>
+                Skilled in Python programming with
+                experience in automation,
+                object-oriented programming,
+                software development,
+                scripting and problem solving.
+            </p>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>Java</h3>
+
+            <p>
+                Leveraging Java to build
+                high-performance applications
+                with strong OOP concepts,
+                clean architecture and
+                software engineering principles.
+            </p>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>SQL</h3>
+
+            <p>
+                Experienced in writing complex
+                queries, database design,
+                normalization and efficient
+                data management practices.
+            </p>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>GitHub</h3>
+
+            <p>
+                Using GitHub for version control,
+                project management,
+                collaboration and showcasing
+                development work professionally.
+            </p>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>HTML</h3>
+
+            <p>
+                Building semantic,
+                responsive and accessible
+                web structures using
+                modern HTML5 standards.
+            </p>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>CSS</h3>
+
+            <p>
+                Designing modern,
+                responsive and attractive
+                user interfaces using
+                advanced CSS techniques.
+            </p>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>JavaScript</h3>
+
+            <p>
+                Creating interactive websites
+                through DOM manipulation,
+                ES6 features and
+                dynamic web functionality.
+            </p>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>React.js</h3>
+
+            <p>
+                Building reusable components,
+                dynamic interfaces and
+                scalable frontend applications
+                using React ecosystem.
+            </p>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>MongoDB</h3>
+
+            <p>
+                Managing NoSQL databases,
+                storing application data
+                efficiently and supporting
+                scalable backend systems.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+        EDUCATION
+========================= -->
+
+<section id="education">
+
+    <h2 class="section-title">
+        LEARNING JOURNEY
+    </h2>
+
+    <div class="timeline">
+
+        <div class="timeline-card">
+
+            <span class="year">
+                2023 - 2027
+            </span>
+
+            <h3>
+                B.Tech Artificial Intelligence
+                & Data Science
+            </h3>
+
+            <p>
+                Dr. NGP Institute of Technology,
+                Coimbatore
+            </p>
+
+            <p>
+                CGPA : 7.1 (up to 5th Semester)
+            </p>
+
+        </div>
+
+        <div class="timeline-card">
+
+            <span class="year">
+                2023
+            </span>
+
+            <h3>
+                Higher Secondary Education
+            </h3>
+
+            <p>
+                G.G.S.M Matric Higher Secondary School
+            </p>
+
+            <p>
+                Score : 85%
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+        PROJECTS
+========================= -->
+
+<section id="projects">
+
+    <h2 class="section-title">
+        IDEAS INTO REALITY
+    </h2>
+
+    <!-- Project 1 -->
+
+    <div class="project-card">
+
+        <h3>
+            Task Tracker
+        </h3>
+
+        <p>
+
+            Developed a responsive task management
+            application using HTML, CSS,
+            JavaScript and SQL.
+
+            Implemented authentication,
+            CRUD operations, task priorities
+            and deadline tracking.
+
+        </p>
+
+        <div class="project-buttons">
+
+            <a href="https://github.com/arivoli42" class="project-btn">
+                GitHub
+            </a>
+
+        
+
+        </div>
+
+    </div>
+
+    <!-- Project 2 -->
+
+    <div class="project-card">
+
+        <h3>
+            Counselyt
+        </h3>
+
+        <p>
+
+            Built a legal information management
+            platform that simplifies legal
+            research and document access.
+
+            Optimized search functionality
+            and structured legal data for
+            faster retrieval.
+
+        </p>
+
+        <div class="project-buttons">
+
+            <a href="https://github.com/arivoli42" class="project-btn">
+                GitHub
+            </a>
+
+           
+
+        </div>
+
+    </div>
+
+    <!-- Project 3 -->
+
+    <div class="project-card">
+
+        <h3>
+            Agrigenic
+        </h3>
+
+        <p>
+
+            AI-powered agricultural marketplace
+            connecting farmers and customers.
+
+            Includes crop validation and
+            intelligent price prediction
+            using machine learning.
+
+        </p>
+
+        <div class="project-buttons">
+
+            <a href="https://github.com/arivoli42" class="project-btn">
+                GitHub
+            </a>
+
+
+        </div>
+
+    </div>
+
+    <!-- Project 4 -->
+
+    <div class="project-card">
+
+        <h3>
+            WeatherNow
+        </h3>
+
+        <p>
+
+            Modern weather forecasting
+            application built using APIs.
+
+            Provides real-time weather,
+            temperature, humidity and
+            location-based forecasts
+            with a clean user interface.
+
+        </p>
+
+        <div class="project-buttons">
+
+            <a href="https://github.com/arivoli42" class="project-btn">
+                GitHub
+            </a>
+
+
+        </div>
+
+    </div>
+
+    <!-- Project 5 -->
+
+    <div class="project-card">
+
+        <h3>
+            Smart Expense Tracker
+        </h3>
+
+        <p>
+
+            Personal finance management
+            application that helps users
+            monitor expenses, categorize
+            spending and analyze financial
+            habits through interactive charts.
+
+        </p>
+
+        <div class="project-buttons">
+
+            <a href="https://github.com/arivoli42" class="project-btn">
+                GitHub
+            </a>
+
+          
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+        INTERNSHIPS
+========================= -->
+
+<section id="internships">
+
+    <h2 class="section-title">
+        INDUSTRY EXPERIENCE
+    </h2>
+
+    <div class="project-card">
+
+        <h3>
+            Full Stack Development Intern
+        </h3>
+
+        <p>
+
+            <strong>Organization:</strong>
+            Internzvalley, Bangalore
+
+            <br><br>
+
+            Developed responsive web applications
+            using HTML, CSS and JavaScript.
+
+            Worked on both frontend and backend
+            development tasks while integrating
+            user interfaces with server-side logic.
+
+            Collaborated on real-time projects,
+            improving problem-solving,
+            communication and teamwork skills.
+
+        </p>
+
+    </div>
+
+    <div class="project-card">
+
+        <h3>
+            Artificial Intelligence &
+            Data Science Intern
+        </h3>
+
+        <p>
+
+            <strong>Organization:</strong>
+            Pacelab, Calicut
+
+            <br><br>
+
+            Learned Python programming and applied
+            it to practical development projects.
+
+            Worked on data-driven applications,
+            backend integration and gained
+            exposure to AI and Data Science
+            workflows.
+
+        </p>
+
+    </div>
+
+</section>
+
+<!-- =========================
+        CERTIFICATIONS
+========================= -->
+
+<section id="certifications">
+
+    <h2 class="section-title">
+        CREDENTIALS & ACHIEVEMENTS
+    </h2>
+
+    <div class="cert-container">
+
+        <div class="cert-card">
+
+            <h3>
+                Artificial Intelligence &
+                Data Science Certification
+            </h3>
+
+            <br>
+
+            <a href="intern 1.png.jpeg"
+            class="project-btn">
+
+                View Certificate
+
+            </a>
+
+        </div>
+
+        <div class="cert-card">
+
+            <h3>
+                Full Stack Web Development
+                Certification
+            </h3>
+
+            <br>
+
+            <a href="intern 2.png"
+            class="project-btn">
+
+                View Certificate
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+        CONTACT
+========================= -->
+
+<section id="contact">
+
+    <h2 class="section-title">
+        LET'S BUILD SOMETHING TOGETHER
+    </h2>
+
+    <div class="glass-card">
+
+        <p>
+
+            <i class="fa-solid fa-envelope"></i>
+
+            arivoli42@gmail.com
+
+        </p>
+
+        <br>
+
+        <p>
+
+            <i class="fa-solid fa-phone"></i>
+
+            +91 7530054044
+
+        </p>
+
+        <br>
+
+        <p>
+
+            <i class="fa-solid fa-location-dot"></i>
+
+            Coimbatore, Tamil Nadu
+
+        </p>
+
+        <div class="social">
+
+            <a href="https://www.linkedin.com/in/arivoli-sankar-5345a52a1?utm_source=share_via&utm_content=profile&utm_medium=member_ios">
+
+                <i class="fab fa-linkedin"></i>
+
+            </a>
+
+            <a href="https://github.com/arivoli42">
+
+                <i class="fab fa-github"></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+        FOOTER
+========================= -->
+
+<footer>
+
+    <p>
+
+        © 2026 Arivoli S |
+        Full Stack Developer |
+        AI & Data Science Student
+
+    </p>
+
+</footer>
+
+</div>
+
+<!-- =========================
+        BACK TO TOP
+========================= -->
+
+<button id="topBtn">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+<!-- =========================
+        WHATSAPP BUTTON
+========================= -->
+
+<a href="https://wa.me/917530054044"
+id="whatsappBtn"
+class="whatsapp-float"
+target="_blank">
+
+    <span class="tooltip">
+
+        Let's Connect
+
+    </span>
+
+    <i class="fab fa-whatsapp"></i>
+
+</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>  
